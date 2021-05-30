@@ -1,21 +1,24 @@
-###### sdw-java-angular
 # Santander Dev Week - Java + Angular
 
-### Projeto: Tela de cotações - Santander
+## Projeto: Tela de cotações - Santander
 
-### Aula 1: Configurando Ambiente.
+### Aula 1: Configurando Ambiente
 
-#### Back-end: 
-1. Instalar JDK (Oracle JDK 8).
+#### Backend
+
+1. Instalar JDK (Oracle JDK 8)
 2. Instalar intelliJ.
 3. Configurar intelliJ.
 
-#### Front-end:
-1. Node.js (LTS 14.16.1).
-    ```
+#### Frontend
+
+1. Node.js (LTS 14.16.1)
+
+    ```bash
     node -v
     npm -v 
     ```
+
 2. Visual Studio Code.
     - Desabilitar mini-map.
     - Mudar o terminal de cmd to git bash.
@@ -31,7 +34,8 @@
         - px to rem.
 
 3. Angular CLI.
-    ```
+
+    ```bash
     npm install -g @angular/cli
     ng -version
     ng --version
@@ -39,11 +43,13 @@
     cd hello-angular
     ng serve --open
     ```
-### Aula 2: Criação de uma API usando Spring Boot (Spring Web).
+
+### Aula 2: Criação de uma API usando Spring Boot (Spring Web)
 
 #### Criação projeto base (Back-end)
 
 #### Objetivos
+
 1. Criar o projeto base (Spring Boot / Maven)
     * https://start.spring.io/
     * spring initializr
@@ -118,7 +124,44 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
         ```
+
+### Aula 3: Integrando a API com um banco de dados relacional (Spring Data JPA)
+
+1. Configurando banco de dados.
+
+2. Criando camada service e exceptions handlers.
+  
+  * Objetivos:
     
+    * Criar a camada service
+    * Criar Mapper de conversão
+    * Criar Exceptions Handlers
+
+3. Publicando o backend na nuvem.
+  
+  * Criar repositório GitHub
+    Repositório que foi publicado da Trilha Java + Angular [Santander Dev Week Fullstack](https://github.com/euougo/sdw-java-angular-publicado)
+
+  * Versionar o código fonte:
+    * git clone https://github.com/euougo/sdw-java-angular-publicado
+    * cd sdw-java-angular-publicado
+    * git branch
+    * Copiar do "projeto original":
+        * src
+        * .gitignore
+        * pom.xml
+        * mvnw.cmd
+        * mvnw
+        * bootcamp.iml
+    * git add .
+    * git commit -m "criação de repositório com o código do bootcamp"
+    * git push
+
+  * Publicar o projeto na  nuvem (Heroku)
+    * criar banco de dados
+    * atualizar credenciais do postgres na apliação
+    * conectar github ao heroku
+    * configurar o deploy automático e publicar.
 
 
 
@@ -128,12 +171,7 @@
 
 
 
-
-
-
-
-
-
+###### sdw-java-angular
 
 
 
