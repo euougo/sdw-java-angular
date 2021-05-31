@@ -163,41 +163,43 @@
     * conectar github ao heroku
     * configurar o deploy automático e publicar.
 
+### Aula 4: Criação de um front-end Angular e integração com a nossa API
 
+- Criação do projeto em angular pelo bash
 
+    ```bash
+      ng new homebroker
+    ```
 
+- add "start": "ng serve --o" no package.json, assim ele ja abre o chrome quando roda o "npm start"
 
+1. Conceitos de Componentes no Angular:
+    - Componentes criados no projeto base.
+    - Entender o que é um componente.
+    - Criar o primeiro componente.
 
+2. Configurando o Projeto:
+    - Entender e configurar o Angular Router.
+    - Configurar o CSS Global da aplicação.
 
+3. Criação dos Componentes da Aplicação:
+    - Criar um novo módulo para o componente Header
+    - Criar o componente Header
+    - Entender a estrutura e criar o component StockCard
+    - Criar uma lista de StockCards no DashboardPageComponent
 
+4. Integração com a API, Diretivas e Property binding:
+    - Entender os tipos e a sintaxe da linguagem Typescript
+    - Criar nosso primeiro model
+    - Criar um service e realizar a integração com a API
+    - Renderizar a lista de stocks de forma dinâmica
+    - Adicionando classes condicionais
 
-###### sdw-java-angular
+5. Publicando o Frontend no GitHub Pages
+    - Criar repositório GitHub
+    - Versionar o código fonte
+    - Publicar o frontend no GitHub Pages
 
+    [Frontend publicado no GitHub pages](https://euougo.github.io/sdw-java-angular-frontend/)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### sdw-java-angular

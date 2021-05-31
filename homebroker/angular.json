@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "8a0cbded-f3d5-4a84-9f33-efe83aecf422"
+    "analytics": "d3ad11e9-fffc-4619-8ceb-5807c7b2d9f2"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "hello-angular": {
+    "homebroker": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/hello-angular",
+            "outputPath": "dist/homebroker",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "hello-angular:build:production"
+              "browserTarget": "homebroker:build:production"
             },
             "development": {
-              "browserTarget": "hello-angular:build:development"
+              "browserTarget": "homebroker:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hello-angular:build"
+            "browserTarget": "homebroker:build"
           }
         },
         "test": {
@@ -105,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "hello-angular"
+  "defaultProject": "homebroker"
 }
